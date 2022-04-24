@@ -1,0 +1,4 @@
+#Sun Apr 24 17:19:07 BRT 2022
+base.0=C\:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

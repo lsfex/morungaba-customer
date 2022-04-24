@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\sign_in_with_apple\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\70053ee5f7b84667609ea5226578eb7a\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\sign_in_with_apple\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\70053ee5f7b84667609ea5226578eb7a\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\sign_in_with_apple\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\70053ee5f7b84667609ea5226578eb7a\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\sign_in_with_apple\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\70053ee5f7b84667609ea5226578eb7a\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\sign_in_with_apple\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\70053ee5f7b84667609ea5226578eb7a\\core-1.6.0\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\flutter_facebook_auth\\intermediates\\res\\merged\\release\\drawable-v21\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\a7649039f63f09921daef5becd81ba8c\\appcompat-1.1.0\\res\\drawable-v21\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\flutter_facebook_auth\\intermediates\\res\\merged\\release\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\a7649039f63f09921daef5becd81ba8c\\appcompat-1.1.0\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\flutter_facebook_auth\\intermediates\\res\\merged\\release\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\70053ee5f7b84667609ea5226578eb7a\\core-1.6.0\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\flutter_facebook_auth\\intermediates\\res\\merged\\release\\drawable-v21\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\a7649039f63f09921daef5becd81ba8c\\appcompat-1.1.0\\res\\drawable-v21\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\flutter_facebook_auth\\intermediates\\res\\merged\\release\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\a7649039f63f09921daef5becd81ba8c\\appcompat-1.1.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\flutter_facebook_auth\\intermediates\\res\\merged\\release\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\a7649039f63f09921daef5becd81ba8c\\appcompat-1.1.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    }
+]

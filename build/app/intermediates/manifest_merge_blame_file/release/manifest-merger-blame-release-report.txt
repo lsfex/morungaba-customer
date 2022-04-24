@@ -1,0 +1,1027 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.morungaba.usuario"
+4    android:versionCode="32"
+5    android:versionName="1.5.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml
+10    <!--
+11         io.flutter.app.FlutterApplication is an android.app.Application that
+12         calls FlutterMain.startInitialization(this); in its onCreate method.
+13         In most cases you can leave this as-is, but you if you want to provide
+14         additional functionality it is fine to subclass or reimplement
+15         additional functionality it is fine to subclass or reimplement FlutterApplication and put your custom class here.
+16    -->
+17    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+17-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:9:5-76
+17-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:9:22-74
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:7:5-67
+18-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:7:22-64
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:8:5-68
+19-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:8:22-65
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:9:5-79
+20-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:9:22-76
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->[:geolocator_android] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:7:5-77
+21-->[:geolocator_android] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:7:22-74
+22
+23    <queries>
+23-->[:flutter_inappwebview] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:7:5-11:15
+24        <intent>
+24-->[:flutter_inappwebview] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:8:9-10:18
+25            <action android:name="android.support.customtabs.action.CustomTabsService" />
+25-->[:flutter_inappwebview] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:9:13-90
+25-->[:flutter_inappwebview] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:9:21-87
+26        </intent>
+27
+28        <package android:name="com.google.android.apps.maps" />
+28-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:8:9-64
+28-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:8:18-61
+29        <package android:name="com.google.android.apps.mapslite" />
+29-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:9:9-68
+29-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:9:18-65
+30        <package android:name="com.autonavi.minimap" />
+30-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:10:9-56
+30-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:10:18-53
+31        <package android:name="com.baidu.BaiduMap" />
+31-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:11:9-54
+31-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:11:18-51
+32        <package android:name="com.waze" />
+32-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:12:9-44
+32-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:12:18-41
+33        <package android:name="ru.yandex.yandexnavi" />
+33-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:13:9-56
+33-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:13:18-53
+34        <package android:name="ru.yandex.yandexmaps" />
+34-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:14:9-56
+34-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:14:18-53
+35        <package android:name="com.citymapper.app.release" />
+35-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:15:9-62
+35-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:15:18-59
+36        <package android:name="com.mapswithme.maps.pro" />
+36-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:16:9-59
+36-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:16:18-56
+37        <package android:name="net.osmand" />
+37-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:17:9-46
+37-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:17:18-43
+38        <package android:name="ru.dublgis.dgismobile" />
+38-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:18:9-57
+38-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:18:18-54
+39        <package android:name="com.tencent.map" />
+39-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:19:9-51
+39-->[:map_launcher] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\map_launcher\intermediates\library_manifest\release\AndroidManifest.xml:19:18-48
+40    </queries>
+41
+42    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+42-->[:photo_manager] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\photo_manager\intermediates\library_manifest\release\AndroidManifest.xml:7:5-80
+42-->[:photo_manager] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\photo_manager\intermediates\library_manifest\release\AndroidManifest.xml:7:22-77
+43    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+43-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:7:5-81
+43-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:7:22-78
+44    <uses-permission android:name="android.permission.VIBRATE" />
+44-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:8:5-66
+44-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:8:22-63
+45    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+45-->[:location] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\location\intermediates\library_manifest\release\AndroidManifest.xml:7:5-81
+45-->[:location] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\location\intermediates\library_manifest\release\AndroidManifest.xml:7:22-78
+46    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+46-->[:location] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\location\intermediates\library_manifest\release\AndroidManifest.xml:8:5-79
+46-->[:location] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\location\intermediates\library_manifest\release\AndroidManifest.xml:8:22-76
+47    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+47-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\924db10c94b435eb28f8588ed5943616\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:5-82
+47-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\924db10c94b435eb28f8588ed5943616\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:22-79
+48
+49    <uses-feature
+49-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c1927f5e390700620d288f92a80fbedb\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+50        android:glEsVersion="0x00020000"
+50-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c1927f5e390700620d288f92a80fbedb\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+51        android:required="true" />
+51-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c1927f5e390700620d288f92a80fbedb\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+52
+53    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+53-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:22:5-65
+53-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:22:22-62
+54    <uses-feature
+54-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:25:5-27:36
+55        android:name="android.hardware.camera"
+55-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:26:9-47
+56        android:required="false" />
+56-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:27:9-33
+57    <uses-feature
+57-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:28:5-30:36
+58        android:name="android.hardware.camera.front"
+58-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:29:9-53
+59        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+59-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:30:9-33
+60    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+61    <uses-feature
+61-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:33:5-35:36
+62        android:name="android.hardware.camera.autofocus"
+62-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:34:9-57
+63        android:required="false" />
+63-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:35:9-33
+64    <uses-feature
+64-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:36:5-38:36
+65        android:name="android.hardware.camera.flash"
+65-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:37:9-53
+66        android:required="false" />
+66-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:38:9-33
+67    <uses-feature
+67-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:39:5-41:36
+68        android:name="android.hardware.screen.landscape"
+68-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:40:9-57
+69        android:required="false" />
+69-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:41:9-33
+70    <uses-feature
+70-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:42:5-44:36
+71        android:name="android.hardware.wifi"
+71-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:43:9-45
+72        android:required="false" /> <!-- for android -->
+72-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:44:9-33
+73    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+74    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+75    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+76    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+77    <!-- for Samsung -->
+78    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+78-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+78-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+79    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+79-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+79-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+80    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+80-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+80-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+81    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+81-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+81-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+82    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+82-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+82-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+83    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+83-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+83-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+84    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+84-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+84-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+85    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+85-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+85-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+86    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+86-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+86-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+87    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+87-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+87-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+88    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+88-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+88-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+89    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+89-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+89-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+90    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+90-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+90-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+91    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+91-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+91-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+92    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+92-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+92-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+93    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+93-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+93-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\7f326c86366c28f0922aa192c541725c\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+94    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+94-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\d3d5a6c25b13f1b423f54cb03368f7d1\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+94-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\d3d5a6c25b13f1b423f54cb03368f7d1\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+95
+96    <application
+97        android:name="android.app.Application"
+97-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:14:9-42
+98        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+98-->[androidx.core:core:1.7.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\ea69ee82fab3b77aa8c28b5a7221b178\core-1.7.0\AndroidManifest.xml:24:18-86
+99        android:extractNativeLibs="false"
+100        android:icon="@mipmap/launcher_icon"
+100-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:18:9-45
+101        android:label="Morungaba Tem Tudo"
+101-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:15:9-43
+102        android:requestLegacyExternalStorage="true"
+102-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:17:9-52
+103        android:supportsRtl="true"
+103-->[com.facebook.android:facebook-login:12.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\e1a29d59ac9961b8811b4aab1c572cf7\jetified-facebook-login-12.1.0\AndroidManifest.xml:28:18-44
+104        android:usesCleartextTraffic="true" >
+104-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:16:9-44
+105
+106        <!-- Start facebook login related -->
+107        <meta-data
+107-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:22:9-107
+108            android:name="com.facebook.sdk.ApplicationId"
+108-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:22:20-65
+109            android:value="@string/facebook_app_id" />
+109-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:22:66-105
+110
+111        <activity
+111-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:23:9-25:48
+112            android:name="com.facebook.FacebookActivity"
+112-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:23:19-63
+113            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+113-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:24:13-96
+114            android:label="@string/app_name"
+114-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:25:13-45
+115            android:theme="@style/com_facebook_activity_theme" />
+115-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c22ad122372c3f93f6e953804638d4f1\jetified-facebook-common-12.1.0\AndroidManifest.xml:33:13-63
+116        <activity
+116-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:26:9-35:20
+117            android:name="com.facebook.CustomTabActivity"
+117-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:27:13-58
+118            android:exported="true" >
+118-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:28:13-36
+119            <intent-filter>
+119-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:29:13-34:29
+120                <action android:name="android.intent.action.VIEW" />
+120-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:30:17-69
+120-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:30:25-66
+121
+122                <category android:name="android.intent.category.DEFAULT" />
+122-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:31:17-76
+122-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:31:27-73
+123                <category android:name="android.intent.category.BROWSABLE" />
+123-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:32:17-78
+123-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:32:27-75
+124
+125                <data android:scheme="@string/fb_login_protocol_scheme" />
+125-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:33:17-75
+125-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:33:23-72
+126            </intent-filter>
+127            <intent-filter>
+127-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c22ad122372c3f93f6e953804638d4f1\jetified-facebook-common-12.1.0\AndroidManifest.xml:39:13-48:29
+128                <action android:name="android.intent.action.VIEW" />
+128-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:30:17-69
+128-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:30:25-66
+129
+130                <category android:name="android.intent.category.DEFAULT" />
+130-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:31:17-76
+130-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:31:27-73
+131                <category android:name="android.intent.category.BROWSABLE" />
+131-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:32:17-78
+131-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:32:27-75
+132
+133                <data
+133-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:33:17-75
+134                    android:host="cct.com.morungaba.usuario"
+135                    android:scheme="fbconnect" />
+135-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:33:23-72
+136            </intent-filter>
+137        </activity>
+138
+139        <!-- end facebook login related -->
+140
+141        <activity
+141-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:39:9-82:20
+142            android:name="online.edentech.fuodz.MainActivity"
+142-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:40:13-41
+143            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+143-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:43:13-163
+144            android:hardwareAccelerated="true"
+144-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:44:13-47
+145            android:launchMode="singleTop"
+145-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:41:13-43
+146            android:theme="@style/LaunchTheme"
+146-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:42:13-47
+147            android:windowSoftInputMode="adjustResize" >
+147-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:45:13-55
+148
+149            <!--
+150                 Specifies an Android theme to apply to this Activity as soon as
+151                 the Android process has started. This theme is visible to the user
+152                 while the Flutter UI initializes. After that, this theme continues
+153                 to determine the Window background behind the Flutter UI.
+154            -->
+155            <meta-data
+155-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:50:13-53:17
+156                android:name="io.flutter.embedding.android.NormalTheme"
+156-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:51:15-70
+157                android:resource="@style/NormalTheme" />
+157-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:52:15-52
+158            <!--
+159                 Displays an Android View that continues showing the launch screen
+160                 Drawable until Flutter paints its first frame, then this splash
+161                 screen fades out. A splash screen is useful to avoid any visual
+162                 gap between the end of Android's launch screen and the painting of
+163                 Flutter's first frame.
+164            -->
+165            <meta-data
+165-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:59:13-62:17
+166                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+166-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:60:15-79
+167                android:resource="@drawable/launch_background" />
+167-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:61:15-61
+168
+169            <!-- Firebase notification -->
+170            <meta-data
+170-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:65:13-67:58
+171                android:name="com.google.firebase.messaging.default_notification_channel_id"
+171-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:66:17-93
+172                android:value="high_importance_channel" />
+172-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:67:17-56
+173            <meta-data
+173-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:69:13-71:64
+174                android:name="com.google.firebase.messaging.default_notification_icon"
+174-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:70:17-87
+175                android:resource="@mipmap/notification_icon" />
+175-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:71:17-61
+176
+177            <intent-filter>
+177-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:73:13-76:29
+178                <action android:name="android.intent.action.MAIN" />
+178-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:74:17-68
+178-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:74:25-66
+179
+180                <category android:name="android.intent.category.LAUNCHER" />
+180-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:75:17-76
+180-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:75:27-74
+181            </intent-filter>
+182            <intent-filter>
+182-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:78:13-81:29
+183                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+183-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:79:17-69
+183-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:79:25-66
+184
+185                <category android:name="android.intent.category.DEFAULT" />
+185-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:31:17-76
+185-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:31:27-73
+186            </intent-filter>
+187        </activity>
+188        <!--
+189             Don't delete the meta-data below.
+190             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+191        -->
+192        <meta-data
+192-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:85:9-87:33
+193            android:name="flutterEmbedding"
+193-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:86:13-44
+194            android:value="2" />
+194-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:87:13-30
+195        <meta-data
+195-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:89:9-90:73
+196            android:name="com.google.android.geo.API_KEY"
+196-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:89:20-65
+197            android:value="AIzaSyDnDczEoeUwf7bN5b_-223uvrecPVfzggE" />
+197-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:90:16-71
+198
+199        <service
+199-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:12:9-15:72
+200            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+200-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:13:13-107
+201            android:exported="false"
+201-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
+202            android:permission="android.permission.BIND_JOB_SERVICE" />
+202-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:15:13-69
+203        <service
+203-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:16:9-22:19
+204            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+204-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:17:13-97
+205            android:exported="false" >
+205-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:18:13-37
+206            <intent-filter>
+206-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:19:13-21:29
+207                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+207-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:20:17-78
+207-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:20:25-75
+208            </intent-filter>
+209        </service>
+210
+211        <receiver
+211-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:24:9-31:20
+212            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+212-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:25:13-98
+213            android:exported="true"
+213-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:26:13-36
+214            android:permission="com.google.android.c2dm.permission.SEND" >
+214-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:27:13-73
+215            <intent-filter>
+215-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:28:13-30:29
+216                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+216-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:29:17-81
+216-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:29:25-78
+217            </intent-filter>
+218        </receiver>
+219
+220        <service
+220-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:33:9-37:19
+221            android:name="com.google.firebase.components.ComponentDiscoveryService"
+221-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:33:18-89
+222            android:directBootAware="true"
+222-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\bba9180e62d9f5764907b541d390aa1d\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+223            android:exported="false" >
+223-->[com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b0b93f6eb734733fda95c5359e173aa8\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:10:13-37
+224            <meta-data
+224-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:34:13-36:85
+225                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+225-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:35:17-128
+226                android:value="com.google.firebase.components.ComponentRegistrar" />
+226-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:36:17-82
+227            <meta-data
+227-->[:firebase_crashlytics] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_crashlytics\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+228                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+228-->[:firebase_crashlytics] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_crashlytics\intermediates\library_manifest\release\AndroidManifest.xml:10:17-130
+229                android:value="com.google.firebase.components.ComponentRegistrar" />
+229-->[:firebase_crashlytics] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_crashlytics\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+230            <meta-data
+230-->[:cloud_firestore] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+231                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+231-->[:cloud_firestore] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:10:17-134
+232                android:value="com.google.firebase.components.ComponentRegistrar" />
+232-->[:cloud_firestore] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+233            <meta-data
+233-->[:firebase_auth] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+234                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+234-->[:firebase_auth] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+235                android:value="com.google.firebase.components.ComponentRegistrar" />
+235-->[:firebase_auth] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+236            <meta-data
+236-->[:firebase_storage] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+237                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+237-->[:firebase_storage] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:10:17-126
+238                android:value="com.google.firebase.components.ComponentRegistrar" />
+238-->[:firebase_storage] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+239            <meta-data
+239-->[:firebase_core] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+240                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+240-->[:firebase_core] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+241                android:value="com.google.firebase.components.ComponentRegistrar" />
+241-->[:firebase_core] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+242            <meta-data
+242-->[com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b0b93f6eb734733fda95c5359e173aa8\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:11:13-13:85
+243                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+243-->[com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b0b93f6eb734733fda95c5359e173aa8\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:12:17-116
+244                android:value="com.google.firebase.components.ComponentRegistrar" />
+244-->[com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b0b93f6eb734733fda95c5359e173aa8\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:13:17-82
+245            <meta-data
+245-->[com.google.firebase:firebase-messaging-ktx:23.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\16536d7cb039540aca293a053b338409\jetified-firebase-messaging-ktx-23.0.0\AndroidManifest.xml:29:13-31:85
+246                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar"
+246-->[com.google.firebase:firebase-messaging-ktx:23.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\16536d7cb039540aca293a053b338409\jetified-firebase-messaging-ktx-23.0.0\AndroidManifest.xml:30:17-126
+247                android:value="com.google.firebase.components.ComponentRegistrar" />
+247-->[com.google.firebase:firebase-messaging-ktx:23.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\16536d7cb039540aca293a053b338409\jetified-firebase-messaging-ktx-23.0.0\AndroidManifest.xml:31:17-82
+248            <meta-data
+248-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\ab12e5c5872071d216256c2555c4bced\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:15:13-17:85
+249                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+249-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\ab12e5c5872071d216256c2555c4bced\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:16:17-113
+250                android:value="com.google.firebase.components.ComponentRegistrar" />
+250-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\ab12e5c5872071d216256c2555c4bced\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:17:17-82
+251            <meta-data
+251-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c7dd1d2e9f1b6a745bc3d90dba9dd805\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:20:13-22:85
+252                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+252-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c7dd1d2e9f1b6a745bc3d90dba9dd805\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:21:17-111
+253                android:value="com.google.firebase.components.ComponentRegistrar" />
+253-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c7dd1d2e9f1b6a745bc3d90dba9dd805\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:22:17-82
+254            <meta-data
+254-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+255                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+255-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+256                android:value="com.google.firebase.components.ComponentRegistrar" />
+256-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+257            <meta-data
+257-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\924db10c94b435eb28f8588ed5943616\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:52:13-54:85
+258                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+258-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\924db10c94b435eb28f8588ed5943616\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:53:17-119
+259                android:value="com.google.firebase.components.ComponentRegistrar" />
+259-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\924db10c94b435eb28f8588ed5943616\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:54:17-82
+260            <meta-data
+260-->[com.google.firebase:firebase-crashlytics:18.2.7] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b03316a6c9f246486eea325166c7f753\jetified-firebase-crashlytics-18.2.7\AndroidManifest.xml:18:13-20:85
+261                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+261-->[com.google.firebase:firebase-crashlytics:18.2.7] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b03316a6c9f246486eea325166c7f753\jetified-firebase-crashlytics-18.2.7\AndroidManifest.xml:19:17-115
+262                android:value="com.google.firebase.components.ComponentRegistrar" />
+262-->[com.google.firebase:firebase-crashlytics:18.2.7] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b03316a6c9f246486eea325166c7f753\jetified-firebase-crashlytics-18.2.7\AndroidManifest.xml:20:17-82
+263            <meta-data
+263-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\8470179d0eeffd2ef9bacd83b1c719f7\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+264                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+264-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\8470179d0eeffd2ef9bacd83b1c719f7\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+265                android:value="com.google.firebase.components.ComponentRegistrar" />
+265-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\8470179d0eeffd2ef9bacd83b1c719f7\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+266            <meta-data
+266-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\888a1e7c3dbe23c7d1db35385aa20711\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+267                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+267-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\888a1e7c3dbe23c7d1db35385aa20711\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+268                android:value="com.google.firebase.components.ComponentRegistrar" />
+268-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\888a1e7c3dbe23c7d1db35385aa20711\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+269            <meta-data
+269-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\014664f9d992799844024793f1d9b982\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+270                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+270-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\014664f9d992799844024793f1d9b982\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+271                android:value="com.google.firebase.components.ComponentRegistrar" />
+271-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\014664f9d992799844024793f1d9b982\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+272        </service>
+273
+274        <provider
+274-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:39:9-43:38
+275            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+275-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:40:13-102
+276            android:authorities="com.morungaba.usuario.flutterfirebasemessaginginitprovider"
+276-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:41:13-88
+277            android:exported="false"
+277-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:42:13-37
+278            android:initOrder="99" />
+278-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:43:13-35
+279
+280        <service
+280-->[:geolocator_android] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:10:9-14:56
+281            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+281-->[:geolocator_android] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-77
+282            android:enabled="true"
+282-->[:geolocator_android] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:12:13-35
+283            android:exported="false"
+283-->[:geolocator_android] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:13:13-37
+284            android:foregroundServiceType="location" />
+284-->[:geolocator_android] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:14:13-53
+285
+286        <provider
+286-->[:image_picker] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
+287            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+287-->[:image_picker] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:9:13-82
+288            android:authorities="com.morungaba.usuario.flutter.image_provider"
+288-->[:image_picker] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:10:13-74
+289            android:exported="false"
+289-->[:image_picker] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
+290            android:grantUriPermissions="true" >
+290-->[:image_picker] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
+291            <meta-data
+291-->[:image_picker] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:75
+292                android:name="android.support.FILE_PROVIDER_PATHS"
+292-->[:image_picker] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+293                android:resource="@xml/flutter_image_picker_file_paths" />
+293-->[:image_picker] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:15:17-72
+294        </provider>
+295
+296        <activity
+296-->[:flutter_inappwebview] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:14:9-17:47
+297            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+297-->[:flutter_inappwebview] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:15:13-104
+298            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+298-->[:flutter_inappwebview] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:16:13-137
+299            android:theme="@style/AppTheme" />
+299-->[:flutter_inappwebview] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:17:13-44
+300        <activity
+300-->[:flutter_inappwebview] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:18:9-20:55
+301            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+301-->[:flutter_inappwebview] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:19:13-112
+302            android:theme="@style/ThemeTransparent" />
+302-->[:flutter_inappwebview] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:20:13-52
+303
+304        <receiver android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver" />
+304-->[:flutter_inappwebview] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:22:9-120
+304-->[:flutter_inappwebview] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:22:19-117
+305
+306        <meta-data
+306-->[:flutter_inappwebview] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:24:9-26:36
+307            android:name="io.flutter.embedded_views_preview"
+307-->[:flutter_inappwebview] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:25:13-61
+308            android:value="true" />
+308-->[:flutter_inappwebview] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:26:13-33
+309
+310        <provider
+310-->[:share] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\share\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
+311            android:name="io.flutter.plugins.share.ShareFileProvider"
+311-->[:share] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\share\intermediates\library_manifest\release\AndroidManifest.xml:9:13-70
+312            android:authorities="com.morungaba.usuario.flutter.share_provider"
+312-->[:share] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\share\intermediates\library_manifest\release\AndroidManifest.xml:10:13-74
+313            android:exported="false"
+313-->[:share] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\share\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
+314            android:grantUriPermissions="true" >
+314-->[:share] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\share\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
+315            <meta-data
+315-->[:image_picker] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:75
+316                android:name="android.support.FILE_PROVIDER_PATHS"
+316-->[:image_picker] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+317                android:resource="@xml/flutter_share_file_paths" />
+317-->[:image_picker] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:15:17-72
+318        </provider>
+319
+320        <receiver
+320-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:11:9-13:40
+321            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.DismissedNotificationReceiver"
+321-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:12:13-121
+322            android:exported="false" />
+322-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:13:13-37
+323        <receiver
+323-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:14:9-16:40
+324            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.ScheduledNotificationReceiver"
+324-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:15:13-121
+325            android:exported="false" />
+325-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:16:13-37
+326        <receiver
+326-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:17:9-19:40
+327            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.KeepOnTopActionReceiver"
+327-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:18:13-115
+328            android:exported="false" />
+328-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:19:13-37
+329        <receiver
+329-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:20:9-33:20
+330            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.RefreshSchedulesReceiver"
+330-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:21:13-116
+331            android:exported="false" >
+331-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:22:13-37
+332            <intent-filter>
+332-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:23:13-32:29
+333                <category android:name="android.intent.category.DEFAULT" />
+333-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:31:17-76
+333-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:31:27-73
+334
+335                <action android:name="android.intent.action.BOOT_COMPLETED" />
+335-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:26:17-79
+335-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:26:25-76
+336                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+336-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:27:17-86
+336-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:27:25-83
+337                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+337-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:28:17-84
+337-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:28:25-81
+338                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+338-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:29:17-82
+338-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:29:25-79
+339                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+339-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:30:17-82
+339-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:30:25-79
+340                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+340-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:31:17-107
+340-->[:awesome_notifications] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\awesome_notifications\intermediates\library_manifest\release\AndroidManifest.xml:31:25-104
+341            </intent-filter>
+342        </receiver>
+343
+344        <activity
+344-->[:url_launcher_android] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
+345            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+345-->[:url_launcher_android] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
+346            android:exported="false"
+346-->[:url_launcher_android] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
+347            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+347-->[:url_launcher_android] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
+348
+349        <service
+349-->[:location] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\location\intermediates\library_manifest\release\AndroidManifest.xml:11:9-15:56
+350            android:name="com.lyokone.location.FlutterLocationService"
+350-->[:location] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\location\intermediates\library_manifest\release\AndroidManifest.xml:12:13-71
+351            android:enabled="true"
+351-->[:location] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\location\intermediates\library_manifest\release\AndroidManifest.xml:13:13-35
+352            android:exported="false"
+352-->[:location] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\location\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
+353            android:foregroundServiceType="location" />
+353-->[:location] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\location\intermediates\library_manifest\release\AndroidManifest.xml:15:13-53
+354
+355        <activity android:name="com.facebook.CustomTabMainActivity" />
+355-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c22ad122372c3f93f6e953804638d4f1\jetified-facebook-common-12.1.0\AndroidManifest.xml:34:9-71
+355-->[com.facebook.android:facebook-common:12.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c22ad122372c3f93f6e953804638d4f1\jetified-facebook-common-12.1.0\AndroidManifest.xml:34:19-68
+356        <!--
+357         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+358         with the application context. This config is merged in with the host app's manifest,
+359         but there can only be one provider with the same authority activated at any given
+360         point; so if the end user has two or more different apps that use Facebook SDK, only the
+361         first one will be able to use the provider. To work around this problem, we use the
+362         following placeholder in the authority to identify each host application as if it was
+363         a completely different provider.
+364        -->
+365        <provider
+365-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\be5da33697efdfb482176c610ea0a44f\jetified-facebook-core-12.1.0\AndroidManifest.xml:39:9-42:40
+366            android:name="com.facebook.internal.FacebookInitProvider"
+366-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\be5da33697efdfb482176c610ea0a44f\jetified-facebook-core-12.1.0\AndroidManifest.xml:40:13-70
+367            android:authorities="com.morungaba.usuario.FacebookInitProvider"
+367-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\be5da33697efdfb482176c610ea0a44f\jetified-facebook-core-12.1.0\AndroidManifest.xml:41:13-72
+368            android:exported="false" />
+368-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\be5da33697efdfb482176c610ea0a44f\jetified-facebook-core-12.1.0\AndroidManifest.xml:42:13-37
+369
+370        <receiver
+370-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\be5da33697efdfb482176c610ea0a44f\jetified-facebook-core-12.1.0\AndroidManifest.xml:44:9-50:20
+371            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+371-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\be5da33697efdfb482176c610ea0a44f\jetified-facebook-core-12.1.0\AndroidManifest.xml:45:13-86
+372            android:exported="false" >
+372-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\be5da33697efdfb482176c610ea0a44f\jetified-facebook-core-12.1.0\AndroidManifest.xml:46:13-37
+373            <intent-filter>
+373-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\be5da33697efdfb482176c610ea0a44f\jetified-facebook-core-12.1.0\AndroidManifest.xml:47:13-49:29
+374                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+374-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\be5da33697efdfb482176c610ea0a44f\jetified-facebook-core-12.1.0\AndroidManifest.xml:48:17-95
+374-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\be5da33697efdfb482176c610ea0a44f\jetified-facebook-core-12.1.0\AndroidManifest.xml:48:25-92
+375            </intent-filter>
+376        </receiver>
+377        <receiver
+377-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\be5da33697efdfb482176c610ea0a44f\jetified-facebook-core-12.1.0\AndroidManifest.xml:51:9-57:20
+378            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+378-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\be5da33697efdfb482176c610ea0a44f\jetified-facebook-core-12.1.0\AndroidManifest.xml:52:13-118
+379            android:exported="false" >
+379-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\be5da33697efdfb482176c610ea0a44f\jetified-facebook-core-12.1.0\AndroidManifest.xml:53:13-37
+380            <intent-filter>
+380-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\be5da33697efdfb482176c610ea0a44f\jetified-facebook-core-12.1.0\AndroidManifest.xml:54:13-56:29
+381                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+381-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\be5da33697efdfb482176c610ea0a44f\jetified-facebook-core-12.1.0\AndroidManifest.xml:55:17-103
+381-->[com.facebook.android:facebook-core:12.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\be5da33697efdfb482176c610ea0a44f\jetified-facebook-core-12.1.0\AndroidManifest.xml:55:25-100
+382            </intent-filter>
+383        </receiver>
+384
+385        <uses-library
+385-->[androidx.window:window:1.0.0-beta04] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\5b450368d885b6cef43b91d0742a9159\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+386            android:name="androidx.window.extensions"
+386-->[androidx.window:window:1.0.0-beta04] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\5b450368d885b6cef43b91d0742a9159\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+387            android:required="false" />
+387-->[androidx.window:window:1.0.0-beta04] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\5b450368d885b6cef43b91d0742a9159\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+388        <uses-library
+388-->[androidx.window:window:1.0.0-beta04] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\5b450368d885b6cef43b91d0742a9159\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+389            android:name="androidx.window.sidecar"
+389-->[androidx.window:window:1.0.0-beta04] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\5b450368d885b6cef43b91d0742a9159\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+390            android:required="false" />
+390-->[androidx.window:window:1.0.0-beta04] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\5b450368d885b6cef43b91d0742a9159\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+391
+392        <activity
+392-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+393            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+393-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+394            android:excludeFromRecents="true"
+394-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+395            android:exported="true"
+395-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+396            android:launchMode="singleTask"
+396-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+397            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+397-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+398            <intent-filter>
+398-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+399                <action android:name="android.intent.action.VIEW" />
+399-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:30:17-69
+399-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:30:25-66
+400
+401                <category android:name="android.intent.category.DEFAULT" />
+401-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:31:17-76
+401-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:31:27-73
+402                <category android:name="android.intent.category.BROWSABLE" />
+402-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:32:17-78
+402-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:32:27-75
+403
+404                <data
+404-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:33:17-75
+405                    android:host="firebase.auth"
+406                    android:path="/"
+407                    android:scheme="genericidp" />
+407-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:33:23-72
+408            </intent-filter>
+409        </activity>
+410        <activity
+410-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+411            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+411-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+412            android:excludeFromRecents="true"
+412-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+413            android:exported="true"
+413-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+414            android:launchMode="singleTask"
+414-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+415            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+415-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+416            <intent-filter>
+416-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+417                <action android:name="android.intent.action.VIEW" />
+417-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:30:17-69
+417-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:30:25-66
+418
+419                <category android:name="android.intent.category.DEFAULT" />
+419-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:31:17-76
+419-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:31:27-73
+420                <category android:name="android.intent.category.BROWSABLE" />
+420-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:32:17-78
+420-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:32:27-75
+421
+422                <data
+422-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:33:17-75
+423                    android:host="firebase.auth"
+424                    android:path="/"
+425                    android:scheme="recaptcha" />
+425-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:33:23-72
+426            </intent-filter>
+427        </activity>
+428
+429        <service
+429-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+430            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+430-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+431            android:enabled="true"
+431-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+432            android:exported="false" >
+432-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+433            <intent-filter>
+433-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+434                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+434-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+434-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\b1b4b18ab482c9ccf32e0bf1053c7ec0\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+435
+436                <category android:name="android.intent.category.DEFAULT" />
+436-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:31:17-76
+436-->C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\android\app\src\main\AndroidManifest.xml:31:27-73
+437            </intent-filter>
+438        </service>
+439
+440        <receiver
+440-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\924db10c94b435eb28f8588ed5943616\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:28:9-35:20
+441            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+441-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\924db10c94b435eb28f8588ed5943616\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:29:13-78
+442            android:exported="true"
+442-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\924db10c94b435eb28f8588ed5943616\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:30:13-36
+443            android:permission="com.google.android.c2dm.permission.SEND" >
+443-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\924db10c94b435eb28f8588ed5943616\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:31:13-73
+444            <intent-filter>
+444-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:28:13-30:29
+445                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+445-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:29:17-81
+445-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:29:25-78
+446            </intent-filter>
+447        </receiver>
+448        <!--
+449             FirebaseMessagingService performs security checks at runtime,
+450             but set to not exported to explicitly avoid allowing another app to call it.
+451        -->
+452        <service
+452-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\924db10c94b435eb28f8588ed5943616\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:41:9-48:19
+453            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+453-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\924db10c94b435eb28f8588ed5943616\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:42:13-82
+454            android:directBootAware="true"
+454-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\924db10c94b435eb28f8588ed5943616\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:43:13-43
+455            android:exported="false" >
+455-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\924db10c94b435eb28f8588ed5943616\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:44:13-37
+456            <intent-filter android:priority="-500" >
+456-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:19:13-21:29
+457                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+457-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:20:17-78
+457-->[:firebase_messaging] C:\Users\Luis\Desktop\rappi\app\1.5.3\Apps\Morungaba-Customer\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:20:25-75
+458            </intent-filter>
+459        </service>
+460
+461        <provider
+461-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\bba9180e62d9f5764907b541d390aa1d\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+462            android:name="com.google.firebase.provider.FirebaseInitProvider"
+462-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\bba9180e62d9f5764907b541d390aa1d\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+463            android:authorities="com.morungaba.usuario.firebaseinitprovider"
+463-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\bba9180e62d9f5764907b541d390aa1d\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+464            android:directBootAware="true"
+464-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\bba9180e62d9f5764907b541d390aa1d\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+465            android:exported="false"
+465-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\bba9180e62d9f5764907b541d390aa1d\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+466            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
+466-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\bba9180e62d9f5764907b541d390aa1d\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+467        <uses-library
+467-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c1927f5e390700620d288f92a80fbedb\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+468            android:name="org.apache.http.legacy"
+468-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c1927f5e390700620d288f92a80fbedb\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+469            android:required="false" />
+469-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c1927f5e390700620d288f92a80fbedb\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+470
+471        <activity
+471-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\313fe4f75e1769006e3f434692c85ee9\jetified-play-services-auth-20.0.1\AndroidManifest.xml:23:9-27:75
+472            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+472-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\313fe4f75e1769006e3f434692c85ee9\jetified-play-services-auth-20.0.1\AndroidManifest.xml:24:13-93
+473            android:excludeFromRecents="true"
+473-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\313fe4f75e1769006e3f434692c85ee9\jetified-play-services-auth-20.0.1\AndroidManifest.xml:25:13-46
+474            android:exported="false"
+474-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\313fe4f75e1769006e3f434692c85ee9\jetified-play-services-auth-20.0.1\AndroidManifest.xml:26:13-37
+475            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+475-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\313fe4f75e1769006e3f434692c85ee9\jetified-play-services-auth-20.0.1\AndroidManifest.xml:27:13-72
+476        <!--
+477            Service handling Google Sign-In user revocation. For apps that do not integrate with
+478            Google Sign-In, this service will never be started.
+479        -->
+480        <service
+480-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\313fe4f75e1769006e3f434692c85ee9\jetified-play-services-auth-20.0.1\AndroidManifest.xml:33:9-37:51
+481            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+481-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\313fe4f75e1769006e3f434692c85ee9\jetified-play-services-auth-20.0.1\AndroidManifest.xml:34:13-89
+482            android:exported="true"
+482-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\313fe4f75e1769006e3f434692c85ee9\jetified-play-services-auth-20.0.1\AndroidManifest.xml:35:13-36
+483            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+483-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\313fe4f75e1769006e3f434692c85ee9\jetified-play-services-auth-20.0.1\AndroidManifest.xml:36:13-107
+484            android:visibleToInstantApps="true" />
+484-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\313fe4f75e1769006e3f434692c85ee9\jetified-play-services-auth-20.0.1\AndroidManifest.xml:37:13-48
+485
+486        <activity
+486-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\097e2d416a9e7afc4f99cf445e67eb19\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+487            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+487-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\097e2d416a9e7afc4f99cf445e67eb19\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+488            android:exported="false"
+488-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\097e2d416a9e7afc4f99cf445e67eb19\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+489            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+489-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\097e2d416a9e7afc4f99cf445e67eb19\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+490
+491        <meta-data
+491-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c66c0a728df955aa0a37f89d470ddd4d\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+492            android:name="com.google.android.gms.version"
+492-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c66c0a728df955aa0a37f89d470ddd4d\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+493            android:value="@integer/google_play_services_version" />
+493-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c66c0a728df955aa0a37f89d470ddd4d\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+494
+495        <provider
+495-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\685e358824bdd7d90d409c21a1b1f802\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+496            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+496-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\685e358824bdd7d90d409c21a1b1f802\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+497            android:authorities="com.morungaba.usuario.lifecycle-process"
+497-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\685e358824bdd7d90d409c21a1b1f802\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+498            android:exported="false"
+498-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\685e358824bdd7d90d409c21a1b1f802\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+499            android:multiprocess="true" />
+499-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\685e358824bdd7d90d409c21a1b1f802\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+500
+501        <service
+501-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a9cc48f7279b656c53435157e738ce5\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:29:9-35:19
+502            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+502-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a9cc48f7279b656c53435157e738ce5\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:30:13-103
+503            android:exported="false" >
+503-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a9cc48f7279b656c53435157e738ce5\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:31:13-37
+504            <meta-data
+504-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a9cc48f7279b656c53435157e738ce5\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:32:13-34:39
+505                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+505-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a9cc48f7279b656c53435157e738ce5\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:33:17-94
+506                android:value="cct" />
+506-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a9cc48f7279b656c53435157e738ce5\jetified-transport-backend-cct-3.1.0\AndroidManifest.xml:34:17-36
+507        </service>
+508        <service
+508-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\16b6523e74e3da18b20f9ae670fb57fe\jetified-transport-runtime-3.1.0\AndroidManifest.xml:26:9-30:19
+509            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+509-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\16b6523e74e3da18b20f9ae670fb57fe\jetified-transport-runtime-3.1.0\AndroidManifest.xml:27:13-117
+510            android:exported="false"
+510-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\16b6523e74e3da18b20f9ae670fb57fe\jetified-transport-runtime-3.1.0\AndroidManifest.xml:28:13-37
+511            android:permission="android.permission.BIND_JOB_SERVICE" >
+511-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\16b6523e74e3da18b20f9ae670fb57fe\jetified-transport-runtime-3.1.0\AndroidManifest.xml:29:13-69
+512        </service>
+513
+514        <receiver
+514-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\16b6523e74e3da18b20f9ae670fb57fe\jetified-transport-runtime-3.1.0\AndroidManifest.xml:32:9-34:40
+515            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+515-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\16b6523e74e3da18b20f9ae670fb57fe\jetified-transport-runtime-3.1.0\AndroidManifest.xml:33:13-132
+516            android:exported="false" />
+516-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\16b6523e74e3da18b20f9ae670fb57fe\jetified-transport-runtime-3.1.0\AndroidManifest.xml:34:13-37
+517
+518        <activity
+518-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:47:9-53:63
+519            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+519-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:48:13-74
+520            android:clearTaskOnLaunch="true"
+520-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:49:13-45
+521            android:screenOrientation="sensorLandscape"
+521-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:50:13-56
+522            android:stateNotNeeded="true"
+522-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:51:13-42
+523            android:theme="@style/zxing_CaptureTheme"
+523-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:52:13-54
+524            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+524-->[com.journeyapps:zxing-android-embedded:4.1.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\c3f8f02f9d88beb24bd4ddca9ebfe620\jetified-zxing-android-embedded-4.1.0\AndroidManifest.xml:53:13-60
+525        <activity
+525-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:12:5-271
+526            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+526-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:12:15-102
+527            android:enabled="false"
+527-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:12:103-126
+528            android:exported="false"
+528-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:12:127-151
+529            android:launchMode="singleInstance"
+529-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:12:204-239
+530            android:process=":playcore_missing_splits_activity"
+530-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:12:152-203
+531            android:stateNotNeeded="true" />
+531-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:12:240-269
+532        <activity
+532-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:13:5-226
+533            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+533-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:13:15-95
+534            android:enabled="false"
+534-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:13:96-119
+535            android:exported="false"
+535-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:13:120-144
+536            android:stateNotNeeded="true"
+536-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:13:145-174
+537            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+537-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:13:175-224
+538        <service
+538-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:16:5-18:15
+539            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+539-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:16:14-95
+540            android:enabled="false"
+540-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:16:96-119
+541            android:exported="true" >
+541-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:16:120-143
+542            <meta-data
+542-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:17:7-108
+543                android:name="com.google.android.play.core.assetpacks.versionCode"
+543-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:17:18-84
+544                android:value="11000" />
+544-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:17:85-106
+545        </service>
+546        <service
+546-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:19:5-147
+547            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+547-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:19:14-96
+548            android:enabled="false"
+548-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:19:97-120
+549            android:exported="false" />
+549-->[com.google.android.play:core:1.10.0] C:\Users\Luis\.gradle\caches\transforms-2\files-2.1\4a75baae2b31964e93bdf4052916ccaf\jetified-core-1.10.0\AndroidManifest.xml:19:121-145
+550    </application>
+551
+552</manifest>

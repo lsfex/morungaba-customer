@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\share\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\70053ee5f7b84667609ea5226578eb7a\\core-1.6.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\share\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\70053ee5f7b84667609ea5226578eb7a\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\share\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\70053ee5f7b84667609ea5226578eb7a\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\share\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\70053ee5f7b84667609ea5226578eb7a\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
+    }
+]

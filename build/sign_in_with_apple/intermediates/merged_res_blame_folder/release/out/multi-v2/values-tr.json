@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\sign_in_with_apple\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-tr\\values-tr.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\70053ee5f7b84667609ea5226578eb7a\\core-1.6.0\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "473",
+                        "endColumns": "100",
+                        "endOffsets": "569"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\7022ec036f4ca32903f3777a1a7d2bcf\\browser-1.2.0\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,155,261,368",
+                        "endColumns": "99,105,106,104",
+                        "endOffsets": "150,256,363,468"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\sign_in_with_apple\\intermediates\\res\\merged\\release\\values-tr\\values-tr.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\70053ee5f7b84667609ea5226578eb7a\\core-1.6.0\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "473",
+                        "endColumns": "100",
+                        "endOffsets": "569"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\7022ec036f4ca32903f3777a1a7d2bcf\\browser-1.2.0\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,155,261,368",
+                        "endColumns": "99,105,106,104",
+                        "endOffsets": "150,256,363,468"
+                    }
+                }
+            ]
+        }
+    ]
+}

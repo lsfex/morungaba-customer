@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\awesome_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\ea69ee82fab3b77aa8c28b5a7221b178\\core-1.7.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\awesome_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\3217a37c9eee5dad5fb43b9c4ba6a78b\\media-1.0.0\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\awesome_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\3217a37c9eee5dad5fb43b9c4ba6a78b\\media-1.0.0\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\awesome_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\3217a37c9eee5dad5fb43b9c4ba6a78b\\media-1.0.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\awesome_notifications\\intermediates\\res\\merged\\release\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\ea69ee82fab3b77aa8c28b5a7221b178\\core-1.7.0\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\awesome_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\3217a37c9eee5dad5fb43b9c4ba6a78b\\media-1.0.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\awesome_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\3217a37c9eee5dad5fb43b9c4ba6a78b\\media-1.0.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\awesome_notifications\\intermediates\\res\\merged\\release\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\3217a37c9eee5dad5fb43b9c4ba6a78b\\media-1.0.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\awesome_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\ea69ee82fab3b77aa8c28b5a7221b178\\core-1.7.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\awesome_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\3217a37c9eee5dad5fb43b9c4ba6a78b\\media-1.0.0\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\awesome_notifications\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\3217a37c9eee5dad5fb43b9c4ba6a78b\\media-1.0.0\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luis\\Desktop\\rappi\\app\\1.5.3\\Apps\\Morungaba-Customer\\build\\awesome_notifications\\intermediates\\res\\merged\\release\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\Luis\\.gradle\\caches\\transforms-2\\files-2.1\\3217a37c9eee5dad5fb43b9c4ba6a78b\\media-1.0.0\\res\\layout\\notification_media_action.xml"
+    }
+]
