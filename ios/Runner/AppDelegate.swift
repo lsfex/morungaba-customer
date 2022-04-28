@@ -10,7 +10,7 @@ import GoogleMaps
   ) -> Bool {
     var flutter_native_splash = 1
     UIApplication.shared.isStatusBarHidden = false
-    GMSServices.provideAPIKey("AIzaSyD3OKxgOAcHixt-EswOYdpGAVDd_qJWleQ")
+    GMSServices.provideAPIKey("AIzaSyCd1NVYwS4Ts_G41C2GLjSHGbGclffccVg")
     GeneratedPluginRegistrant.register(with: self)
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
