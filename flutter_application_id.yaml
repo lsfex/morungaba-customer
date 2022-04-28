@@ -1,7 +1,7 @@
 flutter_application_id:
   android:
-    id: "online.edentech.fuodz"
-    name: "Glover"
+    id: "com.morungaba.usuario"
+    name: "Morungaba Tem Tudo"
   ios:
-    id: "online.edentech.fuodz"
-    name: "Glover"
+    id: "com.morungaba.usuario"
+    name: "Morungaba Tem Tudo"

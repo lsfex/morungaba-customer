@@ -29,6 +29,13 @@
             {
               "client_id": "942317437218-723q333e7lsoigs8a5jrtgvvt7gdtmnv.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "942317437218-hfpvmo3vrd1m88vqsokmtcboitmu6qt2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.morungaba.usuario"
+              }
             }
           ]
         }
@@ -58,6 +65,13 @@
             {
               "client_id": "942317437218-723q333e7lsoigs8a5jrtgvvt7gdtmnv.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "942317437218-hfpvmo3vrd1m88vqsokmtcboitmu6qt2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.morungaba.usuario"
+              }
             }
           ]
         }
@@ -87,6 +101,13 @@
             {
               "client_id": "942317437218-723q333e7lsoigs8a5jrtgvvt7gdtmnv.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "942317437218-hfpvmo3vrd1m88vqsokmtcboitmu6qt2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.morungaba.usuario"
+              }
             }
           ]
         }
