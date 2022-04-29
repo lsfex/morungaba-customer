@@ -2,24 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>BGTaskSchedulerPermittedIdentifiers</key>
-	<array>
-	<string>com.morungaba.usuario</string>
-	</array>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>pt-BR</string>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
-	<string>morungaba tem tudo ios</string>
+	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.morungaba.usuario</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Morungaba Tem Tudo</string>
+	<string>Glover</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>Morungaba</string>
+	<string>$(FLUTTER_BUILD_NAME)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleURLTypes</key>
@@ -30,12 +26,12 @@
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>com.googleusercontent.apps.977502122572-quk6jf1tlfjsqpbo6784nqc43n11ptbo</string>
-				<string>1132657630611700</string>
+				<string>fb{your-app-id}</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.5.3</string>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>comgooglemaps</string>
@@ -108,10 +104,10 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>FacebookAppID</key>
-	<string>1132657630611700</string>
+	<string>APP-ID</string>
 	<key>FacebookClientToken</key>
-	<string>a5486a6afbb02c3912351c84a494a9b8</string>
+	<string>CLIENT-TOKEN</string>
 	<key>FacebookDisplayName</key>
-	<string>Morungaba Tem Tudo</string>
+	<string>APP-NAME</string>
 </dict>
 </plist>
