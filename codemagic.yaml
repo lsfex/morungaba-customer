@@ -36,6 +36,6 @@ workflows:
         api_key: MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQgq3QL+FW+HNvuLcE6FxJlgtbfmIfZrC5QPGEm1/qQdRegCgYIKoZIzj0DAQehRANCAAQvP+kaYspZd3y40JLxylzOHlcvNqlby4WLN0nDqouQ/nrHA6hsBK1cpJpR1iFeFveGDD10XMWcHnP5MP1mxsts
         key_id: 82D5Y3H2FS
         issuer_id: c1cfbc15-28ed-4c84-bd25-033f1b137010
-        submit_to_testflight: false
+        submit_to_testflight: true
         beta_groups:
           - Beta Testers
