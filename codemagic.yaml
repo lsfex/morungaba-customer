@@ -1,0 +1,46 @@
+workflows:
+  my-workflow:
+    name: morungaba-customer
+    instance_type: mac_mini
+    max_build_duration: 60
+    environment:
+      groups:
+        - group_name
+      vars:
+        PUBLIC_ENV_VAR: "value here"
+      flutter: stable
+      xcode: latest
+    cache:
+      cache_paths:
+        - ~/.pub-cache
+    triggering:
+      events:
+        - push
+      branch_patterns:
+        - pattern: '*'
+          include: true
+          source: true
+      cancel_previous_builds: false
+    scripts:
+      - ...
+    artifacts:
+      - build/**/outputs/bundle/**/*.aab
+    publishing:
+  app_store_connect:
+    key_id: 82D5Y3H2FS
+    issuer_id: c1cfbc15-28ed-4c84-bd25-033f1b137010
+    api_key: MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQgq3QL+FW+HNvuLcE6
+FxJlgtbfmIfZrC5QPGEm1/qQdRegCgYIKoZIzj0DAQehRANCAAQvP+kaYspZd3y4
+0JLxylzOHlcvNqlby4WLN0nDqouQ/nrHA6hsBK1cpJpR1iFeFveGDD10XMWcHnP5
+MP1mxsts
+
+    submit_to_app_store: true
+    release_type: AFTER_APPROVAL
+    earliest_release_date: 2022-04-28T14:00:00+00:00
+    copyright: 2022 Morungaba Tem Tudo
+
+      email:
+        recipients:
+          - luis@rota-livre.com
+      scripts:
+        - echo 'Post-publish script'
