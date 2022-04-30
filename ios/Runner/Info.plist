@@ -26,12 +26,12 @@
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>com.googleusercontent.apps.977502122572-quk6jf1tlfjsqpbo6784nqc43n11ptbo</string>
-				<string>fb{your-app-id}</string>
+				<string>fb1132657630611700</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<string>11.0</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>comgooglemaps</string>
